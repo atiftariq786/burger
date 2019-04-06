@@ -42,7 +42,7 @@
 
 
 ##  App Deployment Instructions
-    This app has been deployed to Heroku, and the link can be found [here](heroku link here "live link"). If you would like to run the app locally, follow these instructions: 
+    This app has been deployed to Heroku, and the link can be found [here](https://secret-cliffs-65551.herokuapp.com/).If you would like to run the app locally, follow these instructions: 
 
 *   Clone this repository down to your machine.
    
