@@ -14,29 +14,36 @@ router.get("/", function(req, res) {
     res.render("index", hbsObject);
   });
 });
-
-router.post("/", function(req, res) {
+//===============================================
+router.post("/api/burger", function(req, res) {
   burger.insertOne([
     "burger_name", "devoured"
   ], [
-    req.body.burger_name, req.body.devoured
-  ], function() {
-    res.redirect("/");
+    req.body.name, req.body.devoured
+  ], function(result) {
+    res.json({ id: result.insertId });
   });
 });
+//================================================
 
-router.put("/:id", function(req, res) {
-  var condition = "id = " + req.params.id;
+router.put("/api/burger/:id", function(req, res) {
 
-  console.log("condition", condition);
+  var condition = "id = "+ req.params.id;
 
-  burger.updateOne({
-    devoured: req.body.devoured
-  }, condition, function() {
-    res.redirect("/");
+  burger.updateOne({devoured:1},condition,function(result) {
+
+
+
+
+    if (result.changedRows == 0) {
+
+      return res.status(404).end();
+    } else {
+      res.status(200).end();
+    }
+
+    
   });
 });
-
-
 // Export routes for server.js to use.
 module.exports = router;

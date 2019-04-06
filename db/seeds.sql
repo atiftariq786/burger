@@ -1,13 +1,13 @@
 INSERT INTO burgers (burger_name,devoured) VALUES
 (
 "Chicken Cheese Burger",
-0
+false
 ),
 (
 "Beef Burger",
-0
+false
 ),
 (
 "Double Cheese Burger",
-0
+false
 );
