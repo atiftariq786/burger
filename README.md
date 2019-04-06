@@ -27,9 +27,18 @@
 
 ##  App Images
 
-**  Home page view
+**  Default View
 
-![alt text]( "App Home Page")
+![alt text]( "App default view")
+
+**  Submit Order
+
+![alt text]( "Submit order")
+
+**  Eaten Burger
+
+![alt text]( "Eaten Burger")
+
 
 
 ##  App Deployment Instructions
