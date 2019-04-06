@@ -29,15 +29,15 @@
 
 **  Default View
 
-![alt text]( "App default view")
+![alt text](https://github.com/atiftariq786/burger/blob/master/public/assets/img/AppDefault.png?raw=true "App default view")
 
 **  Submit Order
 
-![alt text]( "Submit order")
+![alt text](https://github.com/atiftariq786/burger/blob/master/public/assets/img/addBurger.png?raw=true "Submit order")
 
 **  Eaten Burger
 
-![alt text]( "Eaten Burger")
+![alt text](https://github.com/atiftariq786/burger/blob/master/public/assets/img/eatenBurger.png?raw=true "Eaten Burger")
 
 
 
