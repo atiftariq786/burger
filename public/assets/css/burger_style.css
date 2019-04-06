@@ -1,0 +1,37 @@
+body{
+
+    background-image: url(/assets/img/burgerEat2.jpg);
+  
+
+    font-size:23px; 
+}
+
+footer{
+
+    color:white;
+    text-align: center;
+    
+    font-size: 16px;
+    line-height: 30px;
+}
+button{
+    background:rgb(41, 40, 40);
+    color: white;
+    font-size: 18px;
+}
+.app{
+    color: blue;
+    background: black;
+}
+h1,h2{
+    color:white;
+}
+li {
+    margin-top: 30px;
+    color:yellow;
+    text-align: center;
+    background:grey;
+}
+p{
+    color:white;
+}
